@@ -1,3 +1,21 @@
-a{
+
+body{
+    background-color: gray;
+}
+a {
+    float: right;
     text-align: right;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 30px;
+}
+a:hover{
+    background-color: #ddd;
+}
+.center{
+    padding-top:30%;
+    text-align: center;
+}
+.searchbar{
+    font-size: 50px;
 }
