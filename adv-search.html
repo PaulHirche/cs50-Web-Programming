@@ -8,8 +8,20 @@
         <a href="index.html" name="search">Normal search</a>
 
         <form action="https://www.google.com/search" class="center">
-            <input type="text" name="q" class="searchbar" placeholder="Advanced Search">
-            <input type="submit" value="Google Search" class="searchbar">
+            <h1>Google-Fake-Advanced-Search</h1>
+            <lable>all these words:</lable>
+            <input type="text" name="as_q" class="adv" placeholder="all these words">
+
+            <lable>this exact word or phrase:</lable>
+            <input type="text" name="as_epq" class="adv" placeholder="this exact word or phrase">
+
+            <lable>any of these words:</lable>
+            <input type="text" name="as_oq" class="adv" placeholder="any of these words">
+
+            <lable>none of these words:</lable>
+            <input type="text" name="as_eq" class="adv" placeholder="none of these words">
+            <p></p>
+            <input type="submit" value="Google Search" id="adv-searchbutton">
         </form>
     </body>
 </html>

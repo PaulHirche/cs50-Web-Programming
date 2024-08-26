@@ -1,6 +1,9 @@
 
 body{
-    background-color: gray;
+    background-color: white;
+}
+h1{
+    font-size: 50px;
 }
 a {
     float: right;
@@ -13,9 +16,39 @@ a:hover{
     background-color: #ddd;
 }
 .center{
-    padding-top:30%;
+    padding-top:25%;
     text-align: center;
 }
-.searchbar{
+#searchbar{
     font-size: 50px;
+    border-radius: 25px;
+    width: 50%;
+}
+#searchbutton{
+    font-size: 30px;
+    border-radius: 25px;
+}
+.adv{
+    border-radius: 25px;
+    font-size: 200%;
+    text-align: left;
+}  
+input[type=text], select{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+lable{
+    font-size: 30px;
+    float: left;
+    padding-left: 10px;
+}
+#adv-searchbutton{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    border-radius: 25px;
 }
